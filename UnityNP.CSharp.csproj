@@ -85,42 +85,6 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
-    <Reference Include="ChannelPurchase">
-      <HintPath>Assets\Plugins\UnityChannel\ChannelPurchase.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityStore">
-      <HintPath>Assets\Plugins\UnityChannel\UnityStore.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookStore">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Facebook\FacebookStore.dll</HintPath>
-    </Reference>
-    <Reference Include="Security">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Security\live\Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Purchasing.Common">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Purchasing.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Apple">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Apple\Apple.dll</HintPath>
-    </Reference>
-    <Reference Include="Stores">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Stores.dll</HintPath>
-    </Reference>
-    <Reference Include="Tizen">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Tizen\Tizen.dll</HintPath>
-    </Reference>
-    <Reference Include="winrt">
-      <HintPath>Assets\Plugins\UnityPurchasing\winrt\winrt.dll</HintPath>
-    </Reference>
-    <Reference Include="Editor">
-      <HintPath>Assets\Plugins\UnityPurchasing\Bin\Editor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="UnityNP.CSharp.Plugins.csproj">
-      <Project>{B5002203-D852-A915-5CB7-6A2253F556B2}</Project>
-      <Name>UnityNP.CSharp.Plugins</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\c#\CamreST.cs" />
@@ -153,10 +117,6 @@
     <Compile Include="Assets\c#\touka.cs" />
     <Compile Include="Assets\c#\zisseki.cs" />
     <Compile Include="Assets\c#\zyushin.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
-    <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
