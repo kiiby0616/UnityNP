@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - hito
+  - hitoF
+  - hitoW
+  - hitoL
+  - mamono
+  - mamonoF
+  - mamonoW
+  - mamonoL
+  - tenshi
+  - tenshiF
+  - tenshiW
+  - tenshiL
+  - UP
+  - DOWN
+  - LEFT
+  - RIGHT
+  - hantei
+  - kabe
+  - peace
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - hantei
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: peace
+    uniqueID: 2934718113
+    locked: 0
