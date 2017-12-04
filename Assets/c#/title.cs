@@ -9,9 +9,11 @@ public class title : MonoBehaviour {
     float seigen = 1f;
     Animator anim;
     private bool scenel = false;
+    AudioSource audioSo;
     void chantrans(float a)
     {
         this.spre.color = new Color(1, 1, 1, a);
+        audioSo = GetComponent<AudioSource>();
     }
    
     // Use this for initialization
@@ -39,8 +41,13 @@ public class title : MonoBehaviour {
             scenel = true;
         }
         if (scenel == true && Input.GetMouseButtonDown(0)){
-            SceneManager.LoadScene("pazzle");
+            Invoke("load",1f);
+            audioSo.PlayOneShot(audioSo.clip);
         }
         chantrans(touka);
 	}
+    void load()
+    {
+        SceneManager.LoadScene("pazzle");
+    }
 }
