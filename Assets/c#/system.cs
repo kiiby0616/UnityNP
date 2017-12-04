@@ -48,10 +48,12 @@ public class system : MonoBehaviour {
     public GameObject peace;
     public GameObject score;
 
+    AudioSource Aso;
+
 	// Use this for initialization
 	void Start () {
         SpeaceS();
-        
+        Aso = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -220,7 +222,7 @@ public class system : MonoBehaviour {
                         up.transform.position = new Vector3(-900f+(300f*SpeaX), -1120f, z);
                         this.ugoita = false;
                         Debug.Log("a");
-                        
+                        Aso.PlayOneShot(Aso.clip);
                         break;
                     case "down":
                         peaceS[SpeaY - 1, SpeaX] = null;
@@ -232,6 +234,7 @@ public class system : MonoBehaviour {
                         GameObject down = Instantiate(peace) as GameObject;
                         down.transform.position = new Vector3(-900f + (300f * SpeaX), 560f, z);
                         this.ugoita = false;
+                        Aso.PlayOneShot(Aso.clip);
                         Debug.Log("a");
                         break;
 
@@ -245,6 +248,7 @@ public class system : MonoBehaviour {
                         GameObject right = Instantiate(peace) as GameObject;
                         right.transform.position = new Vector3(-900f, -1120f + (280f * SpeaY), z);
                         this.ugoita = false;
+                        Aso.PlayOneShot(Aso.clip);
                         Debug.Log("a");
                         
                         break;
@@ -258,7 +262,7 @@ public class system : MonoBehaviour {
                         GameObject left = Instantiate(peace) as GameObject;
                         left.transform.position = new Vector3(900f, -1120f + (280f * SpeaY), z);
                         this.ugoita = false;
-                       
+                        Aso.PlayOneShot(Aso.clip);
                         break;
                 }     
                           
