@@ -48,6 +48,6 @@ public class title : MonoBehaviour {
 	}
     void load()
     {
-        SceneManager.LoadScene("pazzle");
+        SceneManager.LoadScene("prorogu");
     }
 }

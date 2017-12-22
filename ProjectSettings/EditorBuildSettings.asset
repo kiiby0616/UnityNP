@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/story0.unity
     guid: 837782e9034146b4887acf57a66842cb
+  - enabled: 1
+    path: Assets/prorogu.unity
+    guid: 00000000000000000000000000000000
